@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .modal {
+            background-color: aliceblue;
+            border: 5px solid red;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .modal:hover {
+            transition: 1s;
+            border: 5px solid green;
+        }
+
+        .modal-content {
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: lightgray;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: hsl(34, 85%, 49%);
+        }
+
+        p {
+            text-align: center;
+            color: rgb(170, 150, 39);
+        }
+
+        .mod {
+            display: none;
+        } 
+
+        .close {
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="modal" id="modalbody">
+        <div class="modal-content" >
+            <span class="close" onclick="closeBtn()">&times;</span>
+            <h1>Hello, Welcome</h1>
+            <p>My name is Harniel M, Amuin I live in San Andres Baco, Oriental Mindoro Philippines.
+                <br>
+                <br> 
+            </p>
+            <p 
+            style="
+            color: green; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 2px;
+            ">This is my personal website!</p>
+           
+        </div>
+    </div>
+    
+    <script src="app6.js"></script>
+</body>
+</html>

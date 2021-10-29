@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background: khaki;
+            padding: 20px;
+        }
+
+        .top-question {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: space-between;
+            background: coral;
+            padding: 15px 10px;
+        }
+
+        .question1 {
+            margin: 10px;
+        }
+
+        .question2 {
+            margin: 10px;
+        }
+
+        .head {
+            text-align: center;
+            margin: 30px;
+            font-family: cursive;
+        }
+
+        .faqs-question {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .answer1 {
+            display: none;
+            position: relative;
+            left: 40px;
+        }
+
+        .answer2 {
+            display: none;
+            position: relative;
+            left: 40px;
+        }
+
+        #collaps {
+            cursor: pointer;
+            background: rgb(184, 156, 156);
+            border-radius: 5px;
+        }
+
+        .ans {
+            display: block;
+        }
+
+        .cll {
+            display: none;
+        }
+
+        
+       
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="head">
+            <h1>General Questions...</h1>
+        </div>
+
+        <div class="faqs-question">
+
+            <div class="questions">
+               
+                <div class="question1 top-question"> 
+                    <h3>What are the different places in Oriental Mindoro</h3>
+                    <span id="collaps">&timesb;</span>
+                </div>
+
+                <div class="answer1" id="ans-cont1">
+                    <p>San Andres</p>
+                    <p>Calapan City</p>
+                    <p>Baco</p>
+                    <p>San Teodoro</p>
+                    <p>Santa Rita</p>
+                </div>
+            </div>
+
+            <div class="questions">
+                
+                <div class="question2 top-question">
+                    <h3>What are the common weathers</h3>
+                    <span id="collaps">&timesb;</span>
+                </div>
+
+                <div class="answer2" id="ans-cont2">
+                    <p></p>
+                    <p>Rainy</p>
+                    <p>Sunny</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+<script src="app7.js"></script>
+</body>
+</html>

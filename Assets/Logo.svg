@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.0px"
+   height="16.0px"
+   viewBox="0 0 16.0 16.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview894"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="20.48"
+     inkscape:cx="7.2021485"
+     inkscape:cy="8.7158204"
+     inkscape:window-width="1280"
+     inkscape:window-height="971"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid900" />
+  </sodipodi:namedview>
+  <defs
+     id="defs889">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8147"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.8911px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.86138"
+       x="3.6124761"
+       y="14.929235"
+       id="text2709"
+       transform="scale(1.040393,0.96117524)"><tspan
+         sodipodi:role="line"
+         id="tspan2707"
+         x="3.6124761"
+         y="14.929235"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';stroke-width:1.86138">A</tspan></text>
+    <path
+       style="fill:#0d6efd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 8,3 C 7.6073009,3 7.21702,3.1616596 6.9393398,3.4393398 6.6616596,3.71702 6.5,4.1073009 6.5,4.5 6.5,4.8926991 6.6616596,5.28298 6.9393398,5.5606602 7.21702,5.8383404 7.6073009,6 8,6 8.3926991,6 8.78298,5.8383404 9.0606602,5.5606602 9.3383404,5.28298 9.5,4.8926991 9.5,4.5 9.5,4.1073009 9.3383404,3.71702 9.0606602,3.4393398 8.78298,3.1616596 8.3926991,3 8,3 Z"
+       id="path8145"
+       inkscape:path-effect="#path-effect8147"
+       inkscape:original-d="M 8,3 C 7.999,1.999 8.001,5.001 8,6 7.999,6.999 8.001,4.001 8,3 Z" />
+  </g>
+</svg>

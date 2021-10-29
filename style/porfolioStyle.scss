@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin alignCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    @include alignCenter();
+    background: rgb(39, 33, 22);
+}
+
+.container {
+    padding: 20px;
+    flex: 1;
+
+    .title {
+        @include alignCenter();
+        justify-content: space-between;
+        background: rgb(35, 113, 116);
+        flex-direction: row;
+
+        span {
+            margin-left: 15px;
+            font-family: 'Poppins', sans-serif;
+            color: rgb(243, 242, 242);
+        }
+
+        .image {
+            margin-left: 10px;
+    
+            img {
+                max-width: 60px;
+                height: 60px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .categories {
+        margin-top: 40px;
+        @include alignCenter();
+
+        .faqs-question {
+            @include alignCenter();
+            flex-direction: column;
+        }
+
+        .ch {
+            #collaps {
+
+                &:hover {
+                   cursor: pointer; 
+                }
+            }
+
+            h3 {
+                font-size: smaller;
+                font-family: 'Poppins', sans-serif;
+                color: rgb(58, 58, 58)
+            }
+
+            .question {
+                @include alignCenter();
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 18px;
+                font-family: monospace;
+                background: cornflowerblue;
+            }
+
+            .answer1, .answer2 {
+                display: none;
+                padding: 20px;
+
+                a {
+                    color: rgb(168, 167, 167);
+                    text-decoration: none;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 5px;
+                    &:hover {
+                        color: rgb(124, 124, 124);
+                    }
+                }
+            }
+
+            .ans {
+                display: block;
+            }
+
+            .tg {
+                transition: 800ms;
+                transform: rotateX(180deg);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .categories {
+        
+        .faqs-question {
+            flex: .9;
+        }
+    }
+
+    .ch {
+        width: 100%;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="login-form">
+    <div class="container">
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="email" placeholder="Email" required>
+            <br>
+            <br>
+            <input id="inn" type="password" class="password" placeholder="Password" required> 
+            <br>
+            <br>
+
+            <div class="buttons">
+            <button class="button">Login</button>
+            <span class="span">or</span>
+            <button class="button2">Sign-up</button>
+            </div>
+            
+        </form>
+    </div>
+    </div>
+    
+    <p id="jkh" style="color: greenyellow;"></p>
+<script>
+
+var input = document.getElementById('inn').value;
+var array = [input]
+
+function func() {
+    var string = array.toString;
+    var count = string.length;
+
+    if (count < 5) {
+        alert('To short')
+    } else {
+        alert('Strong')
+    }
+}
+on
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-container {
+            background: lemonchiffon;
+            float: left;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .line {
+            height: 3px;
+            background: coral;
+            margin: 3px;
+            width: 25px;
+        }
+
+        .list-container {
+            width: 200px;
+            padding: 20px;
+            background: lightcoral;
+            height: 100vh;
+            transition: 2s;
+            transform: translateX(-100%);
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        button {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 30px;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            color: lightcoral;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 700;
+        }
+
+        .xxx {
+            transform: translateX(0%);
+        }
+
+        .burger {
+            cursor: pointer;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+    <div class="nav-container">
+        <div class="burger" id="burger">
+            <div class="line" id="line"></div>
+            <div class="line" id="line"></div>
+            <div class="line" id="line"></div>
+        </div>
+    </div>
+
+    <div class="list-container" id="nav-toggle">
+        <div class="list">
+            <a href="" id="link"><button>About</button></a>
+            <a href="" id="link"><button>Account</button></a>
+            <a href="" id="link"><button>Services</button></a>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="app4.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Project#1</title>
+
+	<style>
+
+      .head {
+      	background-color: black;
+      	color: white;
+      	padding: 1px 5px;
+      	border-radius: 2px;
+      }
+
+      h1 {
+      	margin-left: 20px;
+      	font-family: algerian;
+      	letter-spacing: 2px;
+      	color: rgb(255, 21, 116);
+      }
+
+      /* List style */
+      ul, li {
+      	position: relative;
+      	float: right;
+      	top: -29px;
+      	list-style-type: none;
+      	margin-right: 15px;
+      }
+
+      button {
+      	background-color: rgba(2, 255, 2, 0);
+      	border-style: none;
+      	margin-right: 15px;
+      	border-radius: 2px;
+      	color: red;
+      	padding: 6px 6px;
+      }
+
+      .content {
+      	background-color: black;
+      	color: white;
+      	padding: 1px 5px;
+      	margin-top: 0px;
+      	text-align: center;
+      	height: 100vh;
+      	background-image: url(images.jpg);
+        background-repeat: no-repeat;
+        background-size: 1280px 1024px;
+        border-radius: 2px;
+      }
+
+      h2 {
+      	font-size: 5em;
+      	font-family: broadway;
+      	color: rgb(255, 21, 116);
+      }
+
+	</style>
+</head>
+<body>
+
+	<header class="head">
+		
+		<h1>CASCADE</h1>
+		<ul>
+			<li><button>Feedback</button></li>
+			<li><button>Services</button></li>
+			<li><button>Contact</button></li>
+			<li><button>About</button></li>
+			<li><button>Home</button></li>
+		</ul>	
+	</header>
+	<section class="content">
+	<br>
+	<br>
+	<br>
+        <h2><br>Welcome To Cascade<br>Create Something New</h2>
+		<button>Explore more</button>
+		<button id="btn">Subscribe now</button>
+
+		<p id="p"></p>
+	</section>
+
+	<script>
+   
+        var btn = document.getElementById('btn');
+
+        btn.addEventListener('click', function(){
+        	alert('You pressed subscribe now');
+        })
+
+	</script>
+
+</body>
+</html>

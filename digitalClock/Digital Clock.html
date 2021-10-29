@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JAVASCRIPT</title>
+
+	<script>
+
+        /*var arr = ['Apple', 'Grapes', 'Orange',];
+
+        function arr1() {
+        	document.getElementById('para1').innerHTML = arr;
+        }*/
+        
+        /*var date = Date()
+
+        function date1() {
+        	document.getElementById('para1').innerHTML = date;
+        }*/
+
+        /*function change() {
+        	document.getElementById('para1').style.backgroundColor = 'orange';
+        	document.getElementById('para1').style.padding = '5px';
+        	document.getElementById('para1').style.textAlign = 'center';
+                document.getElementById('para1').style.color = 'black';
+                document.getElementById('para1').style.fontSize = '20px';
+        }*/
+
+        /*function validate() {
+                
+                var x, text ;
+                x = document.getElementById('demo').value;
+                
+                        if (x < 10) {
+                                text = 'Not Valid';
+                        } else {
+                                text = 'Valid';
+                        }
+                        document.getElementById('demo1').innerHTML = text
+                }*/
+
+                /*window.alert('Hello This is an Alert Window')*/
+
+                /*document.write('Hello This Is a Document.write')*/
+
+                 /*console.log('CONSOLE');*/
+
+                /*var x, y, z, b;
+
+                x = 5+6;
+                y = 'This is a var';
+                z = 100+100;
+                b = 12345+12343;
+
+                var result = x + y + z + b;
+
+                console.log(result)
+
+                var arry = ['Banana', 'Apple', 'Grapes'];
+
+                console.log(arry)*/
+
+                
+
+                
+                
+
+
+        
+	</script>
+
+        <style>
+                
+        .Container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background-color: black;
+                color: yellow;
+                justify-content: space-around;
+                position: absolute;
+                top: 50px;
+                left: 30%;
+                right: 30%;
+                border-radius: 25px;
+
+        }
+
+        #T {
+                position: absolute;
+                text-align: center;
+                background-color: yellow;
+                color: orange;
+                top: 0;
+                left: 30%;
+                right:30%;
+                border-radius: 25px;
+                padding: 5px 5px;
+
+        } 
+
+        button {
+                position: absolute;
+                top: 39px;
+        }
+
+        h1, .num {
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+
+        }
+
+       
+
+        </style>
+
+</head>
+<body>     
+
+
+<p id="T">Digital Clock</p> 
+<!--<input id="demo" value="10" placeholder="NUMBER">-->
+<div class="Container">
+<p id="hour"></p>
+<p id="dem"></p>
+<p id="second"></p>
+</div>
+
+
+
+<h1 id="num"></h1>
+
+<script>        
+
+
+              
+                
+                var myvar;
+                
+                function whenclick() {
+                        myvar = setInterval(myfunc, )
+                };
+
+                function myfunc() {
+                        var date = new Date();
+                        var h = date.getHours();
+                        var m = date.getMinutes();
+                        var s = date.getSeconds();
+
+                        document.getElementById('hour').innerHTML = h;
+                        document.getElementById('dem').innerHTML = m;
+                        document.getElementById('second').innerHTML = s;
+                };
+
+                whenclick()
+
+
+
+                let age = '!@#$%'
+                let btn = document.getElementById('btn')
+                let n = '';
+
+                btn.addEventListener('click', function(){
+                           alert('This is an accurate time');               
+                })
+
+
+                /*var age = 20;
+                var name = 'Harniel M. Amuin';
+                var total = age + name;
+
+                console.log(total);*/
+
+
+
+                /*var text = "";
+                var i = document.getElementById('sum');
+                for ( i = 0; i < 10; i++) {
+                        if ( i === 3) {continue;}
+                text += "This is number " + i + "<br>";
+        }
+
+        document.getElementById('num').innerHTML = text;
+/*document.getElementById('de').innerHTML = 'Hello this will write a message';*/
+</script>
+
+<!--<button type="button" onclick="validate()">Submit</button>-->
+
+<!--<p id="para1">HELLO THIS WILL CHANGE ITS ATTRIBUTES</p>-->
+
+<!--<button type="button" onclick="arr1()">This will write an array</button>-->
+
+<!--<button type="button" onclick="date1()">This will display date</button>-->
+
+<!--<button type="button" onclick="change()">This will change attr</button>-->
+
+
+
+
+</body>
+</html>

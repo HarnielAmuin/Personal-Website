@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY PERSONAL WEBSITE</title>
+
+	<style>
+
+	h1 {
+		text-align: center;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+	body {
+		background-color: green;
+	}
+
+    .container {
+    	position: absolute;
+    	text-align: center;
+    	height: 100vh;
+    	width: 100%;
+    	background-color: green;
+    }
+
+    p:hover {
+    	cursor: pointer;
+    }
+
+	#inputarea, p {
+		position: relative;
+		left: 12px;
+		width: 100px;
+		color: rgb(255, 255, 0);
+		
+	}
+
+
+    /*.inputarea, p {
+    	position: absolute;
+    	left: 34%;
+
+    }*/
+
+
+	</style>
+
+</head>
+<body>
+<h1>To Do List</h1>
+
+<div class="container">
+	<input type="text" name="text" id="inputfield" placeholder="To Do List">
+	<button type="button" id="btn">+</button>
+	<div id="inputarea"></div>	
+</div>
+
+
+<script>
+
+    let btn = document.getElementById('btn');
+    let input = document.getElementById('inputarea');
+    let area = document.getElementById('inputfield');
+	
+
+    btn.addEventListener('click', function(){
+		// creating element
+		let paragraph = document.createElement('p')
+    	paragraph.innerText = area.value;
+    	input.appendChild(paragraph);
+    	inputfield.value = "";
+
+        // this is rfor line though when click
+    	paragraph.addEventListener('click', function(){
+    		paragraph.style.textDecoration = 'line-through';
+    	})
+		// this is used to delete the text when dblclick
+    	paragraph.addEventListener('dblclick', function(){
+    		inputarea.removeChild(paragraph);
+    })
+})
+
+
+	</script>
+
+	<script src="JAva.js"></script>
+</body>
+</html>
