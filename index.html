@@ -21,6 +21,12 @@
             color: rgb(218, 216, 216);
             font-size: 20px;
             font-family: 'Arial';
+            animation: fade 1s infinite ease;
+        }
+
+        @keyframes fade {
+            0% {opacity: 100%;}
+            100%{opacity: 0%;}
         }
     </style>
 </head>
@@ -33,5 +39,7 @@
     window.location = 'index.php';
     }
 </script>
+
+<noscript style="color: tomato; font-family: 'Arial';">Please enable javascript to continue!</noscript>
 </body>
 </html>
