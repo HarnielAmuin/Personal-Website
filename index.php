@@ -125,14 +125,14 @@
 <div class="contact-area">
     <div class="input">
         <form action="action.php" method="post">
-            <textarea name="message" id="message" cols="50" rows="10"></textarea>
+            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
             <br><button type="submit" name="submit">Send</button>
         </form>
     </div>
 </div>
 <!-- End of contact container -->
 
-<script src="app.js" async></script>
-<script src="contact.js" async></script>
+<script src="app.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
